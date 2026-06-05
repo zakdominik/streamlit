@@ -1,0 +1,15 @@
+#credentials
+.env
+#data
+data/raw/*
+!data/raw/london_houses.csv
+data/processed/
+#model stored in S3
+*.pkl
+#python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.DS_Store
+.idea/
